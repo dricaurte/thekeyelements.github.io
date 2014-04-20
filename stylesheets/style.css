@@ -120,7 +120,7 @@ background-position: 0px;
 	}
 #text h1{	
 font-family: 'AldotheApache',helvetica, arial;
-background: url("images/longbar.gif");
+background: url("/images/longbar.gif");
 	background-size:auto;
 	width: auto;
 	font-weight: bold;
@@ -142,7 +142,7 @@ background: url("images/longbar.gif");
 }
 #text h3{	
 font-family: 'AldotheApache',helvetica, arial;
-	background: url("images/newestbar.gif");
+	background: url("/images/newestbar.gif");
 	background-size:auto;
 	width: auto;
 	font-weight: bold;
@@ -169,7 +169,7 @@ font-family: 'AldotheApache',helvetica, arial;
 	}
 #text h5{	
 font-family: 'AldotheApache',helvetica, arial;
-background: url("images/contactbar.gif");
+background: url("/images/contactbar.gif");
 	background-size:auto;
 	width: auto;
 	font-weight: bold;
