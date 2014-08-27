@@ -9,7 +9,7 @@ body{
 	background-repeat: no-repeat;
 	background-position:50% 0%;
 	background-attachment:fixed;
-	background-size: auto;
+	background-size: cover;
 
 	width: 875px;
 	margin-left: auto;
