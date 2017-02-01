@@ -710,9 +710,9 @@ label {
 }
 .music-section .albums-block .cover-figure .cover-image {
   position: relative;
-  -webkit-opacity: 0.95;
+ /* -webkit-opacity: 0.95;
   -moz-opacity: 0.95;
-  opacity: 0.95;
+  opacity: 0.95;*/
 }
 .music-section .albums-block .cover-figure .record-holder {
   max-width: 235px;
