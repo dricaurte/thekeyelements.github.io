@@ -918,12 +918,12 @@ label {
 }
 
 .portfolioitemsignaturecontainer{
-  width: 500px;
+  max-width: 500px;
   float: none;
 }
 
 .portfolioitemsignature {
-  width: 100%;
+  /*width: 100%;*/
   margin: 0 auto;
 }
 
@@ -989,11 +989,11 @@ footer .youtube:hover {
   background-color: #fff; 
   background-position: right bottom;
 }
-footer .behance { 
+footer .twitter { 
   background: url(../images/footericons.svg) center no-repeat #000000;
   background-position: -108px top;  
 }
-footer .behance:hover { 
+footer .twitter:hover { 
   background-color: #fff; 
   background-position: -108px bottom;  
 }
@@ -1005,11 +1005,11 @@ footer .instagram:hover {
   background-color: #fff; 
   background-position: -36px bottom; 
 }
-footer .linkedin { 
+footer .spotify { 
   background: url(../images/footericons.svg) center no-repeat #000000;
   background-position: -72px top; 
 }
-footer .linkedin:hover { 
+footer .spotify:hover { 
   background-color: #fff; 
   background-position: -72px bottom; 
 }
