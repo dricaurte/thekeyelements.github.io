@@ -384,10 +384,11 @@ label {
   width: 100%;
   position: relative;
   color: #fff;
-  background: #101113;
+  background: #000000;
 }
 .logo-holder {
-  height: 350px;
+  background-image: url('../images/logo.svg');
+  height: 300px;
   text-align: center;
   background-color: transparent;
   background-position: center center;
@@ -1309,6 +1310,3 @@ footer .spotify:hover {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Theme custom */
-.logo-holder {
-  background-image: url('../images/logo.svg');
-}
