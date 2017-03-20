@@ -1,3 +1,12 @@
+/*!-----------------------------------------------------------------------------
+ * Vegas - Fullscreen Backgrounds and Slideshows.
+ * v2.2.0 - built 2016-01-18
+ * Licensed under the MIT License.
+ * http://vegas.jaysalvat.com/
+ * ----------------------------------------------------------------------------
+ * Copyright (C) 2010-2016 Jay Salvat
+ * http://jaysalvat.com/
+ * --------------------------------------------------------------------------*/
 
 (function ($) {
     'use strict';
@@ -17,7 +26,7 @@
         align:              'center',
         valign:             'center',
         transition:         'fade',
-        transitionDuration: 1000,
+        transitionDuration: 2000,
         transitionRegister: [],
         animation:          null,
         animationDuration:  'auto',

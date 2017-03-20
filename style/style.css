@@ -1,4 +1,6 @@
-/* ======= Base ======= */
+/*------------------------------------------------------------------
+[1. Base]
+-------------------------------------------------------------------*/
 html,
 body {
   height: 100%;
@@ -248,7 +250,9 @@ label {
   font-size: 25px;
   font-weight: bold;
 }
-/* Generic section styling */
+/*------------------------------------------------------------------
+[Generic Section Styling]
+-------------------------------------------------------------------*/
 .section {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -281,7 +285,9 @@ label {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-/* ====== Header ======= */
+/*------------------------------------------------------------------
+[Header]
+-------------------------------------------------------------------*/
 .header {
   color: #fff;
   padding-top: 15px;
@@ -301,7 +307,9 @@ label {
 .header-scrolled .nav > li > a {
   color: rgba(255, 255, 255, 0.65);
 }
-/* ====== Nav ======= */
+/*------------------------------------------------------------------
+[Nav]
+-------------------------------------------------------------------*/
 .navbar-toggle {
   margin-right: 0;
   margin-top: 0;
@@ -358,23 +366,10 @@ label {
 .nav > li.active > a {
   color: #fff;
 }
-/* ======= Footer ======= */
-.footer-section {
-  background: #000000;
-  font-weight: normal;
-  color: rgba(255, 255, 255, 0.6);
-}
-.footer a {
-  color: #C9091A;
-}
-.footer a:hover {
-  color: #980714;
-}
-.footer-content {
-  padding: 15px;
-}
 
-/* ======= Promo Section ======= */
+/*------------------------------------------------------------------
+[Header Section]
+-------------------------------------------------------------------*/
 .vegas-timer-progress {
   background: #C9091A;
 }
@@ -569,7 +564,9 @@ label {
   padding-right: 5px;
   font-size: 14px;
 }
-/* ======= Gigs Section ======= */
+/*------------------------------------------------------------------
+[Gigs Section]
+-------------------------------------------------------------------*/
 .gigs-section .container {
   max-width: 860px;
 }
@@ -650,7 +647,9 @@ label {
 .gigs-section .gigs-contact .btn {
   margin-top: 15px;
 }
-/* ======= Music Section ======= */
+/*------------------------------------------------------------------
+[Music Section]
+-------------------------------------------------------------------*/
 .music-section {
   background: #f5f5f5;
 }
@@ -744,12 +743,14 @@ label {
 .music-section .music-action {
   margin-top: 30px;
 }
-/* ======= About Section ======= */
+/*------------------------------------------------------------------
+[About Section]
+-------------------------------------------------------------------*/
 .about-section .section-title {
   margin-bottom: 30px;
 }
 .about-section .section-intro {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   max-width: 800px;
   font-size: 16px;
   color: #4f545e;
@@ -827,7 +828,9 @@ label {
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 }
-/* ======= Merch Section ======= */
+/*------------------------------------------------------------------
+[Merch Section]
+-------------------------------------------------------------------*/
 .merch-section {
   background: #f5f5f5;
 }
@@ -893,111 +896,8 @@ label {
 }
 
 /*------------------------------------------------------------------
-[8. New Footer]
+Contact Section]
 -------------------------------------------------------------------*/
-
-.portfolioitemheader{ 
-  background: #004d28;
-  padding: 0px;
-}
-
-.portfolioitemsignaturecontainer{
-  max-width: 500px;
-  float: none;
-}
-
-.portfolioitemsignature {
-  margin: 0 auto;
-}
-
-.padder  {
-  padding-bottom: 30px;
-}
-/*------------------------------------------------------------------
-[7. Footer Links]
--------------------------------------------------------------------*/
-
-footer { 
-  background: #363b3f; 
-}
-
-footer p { 
-    background: #000000;
-    font-weight: normal;
-    color: rgba(255, 255, 255, 0.6);
-    text-align: center;
-}
-
-footer ul { 
-  width: 100%; 
-  text-align: center; 
-  margin-top: 30px;
-  padding:0px; 
-}
-
-footer li { display: inline-block; 
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-footer li a { display: block; 
-  text-decoration: none; 
-  border-bottom: none; 
-  padding: 18px; 
-
-  -webkit-transition: all 0.3s ease-in, .5s; 
-  -moz-transition: all 0.3s ease-in, .5s; 
-  -o-transition: all 0.3s ease-in, .5s; 
-  -ms-transition: all 0.3s ease-in, .5s; 
-  transition: all 0.3s ease-in, .5s; 
-}
-
-footer .facebook { 
-  background: url(../images/footericons.svg) center #000000;
-  background-position: left top;  
-}
-
-footer .facebook:hover { 
-  background-color: #fff; 
-  background-position: left bottom;  
-}
-footer .youtube { 
-  background: url(../images/footericons.svg) center no-repeat #000000; 
-  background-position: right top;
-
-}
-footer .youtube:hover { 
-  background-color: #fff; 
-  background-position: right bottom;
-}
-footer .twitter { 
-  background: url(../images/footericons.svg) center no-repeat #000000;
-  background-position: -108px top;  
-}
-footer .twitter:hover { 
-  background-color: #fff; 
-  background-position: -108px bottom;  
-}
-footer .instagram { 
-  background: url(../images/footericons.svg) center no-repeat #000000;
-  background-position: -36px top; 
-}
-footer .instagram:hover { 
-  background-color: #fff; 
-  background-position: -36px bottom; 
-}
-footer .spotify { 
-  background: url(../images/footericons.svg) center no-repeat #000000;
-  background-position: -72px top; 
-}
-footer .spotify:hover { 
-  background-color: #fff; 
-  background-position: -72px bottom; 
-}
-
-/* ======= Contact Section ======= */
 .contact-section {
   background: #fff;
 }
@@ -1015,7 +915,7 @@ footer .spotify:hover {
 .contact-section .section-intro {
   max-width: 800px;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   font-size: 16px;
 }
 .contact-section .contact-block {
@@ -1079,7 +979,121 @@ footer .spotify:hover {
 .footer .social-media-list .fa {
   font-size: 36px;
 }
-/* ======= Modal ======= */
+/*------------------------------------------------------------------
+[3. Footer]
+-------------------------------------------------------------------*/
+.footer-section {
+  background: #000000;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer a {
+  color: #C9091A;
+}
+.footer a:hover {
+  color: #980714;
+}
+.footer-content {
+  padding: 15px;
+}
+
+.footerlogocontainer{
+  max-width: 500px;
+  float: none;
+}
+
+.footerlogo {
+  margin: 0 auto;
+}
+
+.padder  {
+  padding-bottom: 30px;
+}
+
+footer { 
+  background: #363b3f; 
+}
+
+footer p { 
+    background: #000000;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+}
+
+footer ul { 
+  width: 100%; 
+  text-align: center; 
+  margin-top: 30px;
+  padding:0px; 
+}
+
+footer li { display: inline-block; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer li a { display: block; 
+  text-decoration: none; 
+  border-bottom: none; 
+  padding: 18px; 
+
+  -webkit-transition: all 0.3s ease-in, .5s; 
+  -moz-transition: all 0.3s ease-in, .5s; 
+  -o-transition: all 0.3s ease-in, .5s; 
+  -ms-transition: all 0.3s ease-in, .5s; 
+  transition: all 0.3s ease-in, .5s; 
+}
+
+footer .facebook { 
+  background: url(../images/footericons.svg) center #000000;
+  background-position: left top;  
+}
+
+footer .facebook:hover { 
+  background-color: #fff; 
+  background-position: left bottom;  
+}
+footer .youtube { 
+  background: url(../images/footericons.svg) center no-repeat #000000; 
+  background-position: right top;
+
+}
+footer .youtube:hover { 
+  background-color: #fff; 
+  background-position: right bottom;
+}
+footer .spotify { 
+  background: url(../images/footericons.svg) center no-repeat #000000;
+  background-position: -108px top;  
+}
+footer .spotify:hover { 
+  background-color: #fff; 
+  background-position: -108px bottom;  
+}
+footer .instagram { 
+  background: url(../images/footericons.svg) center no-repeat #000000;
+  background-position: -36px top; 
+}
+footer .instagram:hover { 
+  background-color: #fff; 
+  background-position: -36px bottom; 
+}
+footer .twitter { 
+  background: url(../images/footericons.svg) center no-repeat #000000;
+  background-position: -72px top; 
+}
+footer .twitter:hover { 
+  background-color: #fff; 
+  background-position: -72px bottom; 
+}
+
+
+/*------------------------------------------------------------------
+[1. Modal]
+-------------------------------------------------------------------*/
 .modal-body {
   padding-left: 30px;
   padding-right: 30px;
