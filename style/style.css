@@ -647,6 +647,28 @@ label {
 .gigs-section .gigs-contact .btn {
   margin-top: 15px;
 }
+
+.buytickets {
+
+ margin: 0px;
+ padding: 0px;
+}
+
+.buybutton {
+
+border: 0px;
+background: none;
+text-transform: uppercase;
+font-size: 12px;
+font-weight: bold;
+padding: 0px;
+}
+
+.buybutton:focus{
+  outline: 0px;
+}
+
+
 /*------------------------------------------------------------------
 [Music Section]
 -------------------------------------------------------------------*/
